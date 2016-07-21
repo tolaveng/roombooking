@@ -1,0 +1,33 @@
+1. Installation
+	- Create Database name roombooking_db
+	or running sql from database/roombooking_db.sql
+
+	- Configure database server in db-config.php
+
+	- Upload all files from PHP to server
+
+	- Done
+
+
+2. Register as administrator user
+	- Register as a normal user first -> log out
+
+	- Log in into a user who has an administrative role,
+	  by default using
+		email: admin@swin.edu.au and password: admin
+
+	- Go to the User Manager -> select and edit on the user that you want to promote
+		Change User Type to Administrator -> Save
+
+	- Log out and Log in to the new user, now you have the administrative role.
+	
+	- Delete the user admin@swin.edu.au by changing the User Type to User first, then delete.
+
+
+Note:
+- All the previous records will automatically deleted after six months.
+- No student ID require to verify, it may cause an unexpected result. They might use the fake ID. ( We can verify by using an email in case I can access the mail server)
+
+
+	
+	

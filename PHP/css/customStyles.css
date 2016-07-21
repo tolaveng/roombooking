@@ -1,0 +1,125 @@
+/* customised css to overwrite the bootstrap css */
+
+html, body {
+  font-family: arial, sans-serif;
+  background-color: #FFFFFF;
+  margin: 0;
+  height: 100%;
+}
+
+/* Web Site Header */
+header {
+  margin-top: 2px;
+  padding: 10px 20px;
+  color: #666666;
+  background-color: #E0E0E0;
+  border-bottom: dotted 1px black;
+}
+
+/* Navigation */
+nav#nav_main{
+}
+
+/* Content */
+#content {
+  background-color: #F9F9F9;
+  padding: 20px 20px;
+  min-height: 100%;
+}
+#message_bar{
+  padding: 8px;
+  margin: 8px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.8em;
+  display: none;
+}
+#header_heading{
+	display : block;
+	float : left;
+}
+
+#table_layout table tr:nth-child(odd) {
+  background: #F5F5F5;
+}
+#table_layout table tr:nth-child(even) {
+  background: #FFFFFF;
+}
+#table_layout table tr{
+  cursor: pointer;
+}
+
+#table_layout table tr td.icons{
+  text-align: right;
+}
+#table_layout .td-hidden{
+  text-align: center;
+}
+
+.link-loginout{
+	display : block;
+	float : right;
+	text-decoration : none;
+}
+.link-loginout:link, .link-loginout:active{
+	text-decoration : none;
+}
+.link-loginout:visited, .link-loginout:hover{
+  text-decoration : none;
+}
+.disabled{
+  cursor: not-allowed;
+}
+.text-center{
+  margin: auto;
+  text-align: center;
+}
+/* Footer */
+footer {
+  padding: 10px 20px;
+  font-size: 10pt;
+  background-color: #E0E0E0;
+  border-top: dotted 1px black;
+  color: #333333;
+}
+
+/* --- overlay block screen --- */
+.screen-block-overlay{
+  position : fixed;
+  left : 0;
+  top : 0;
+  bottom: 0;
+  right: 0;
+  background: #000000;
+  z-index: 9999;
+  background-color: rgba(0,0,0, 0.5);
+  text-align: center;
+  vertical-align: middle;
+}
+.screen-block-overlay span:first-child{
+  position : relative;
+  top: 45%;
+  margin: auto;
+  padding: 16px;
+  color: #1181FF;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #888888;
+}
+.screen-block-overlay img{
+  margin: auto;
+}
+/* --- end overlay block screen --- */
+
+/* ----- bootstrap modal waiting ----- */
+#modal_wait{
+
+}
+#modal_wait_body{
+
+}
+#modal_wait_body img{
+  border: none;
+  margin: auto auto;
+}
+/* ----- end bootstrap modal waiting ----- */

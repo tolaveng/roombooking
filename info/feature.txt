@@ -1,0 +1,7 @@
+- User register
+- Calendar room booking
+- Adding attendant list
+- Block calendar
+- Block user booking or log in
+- Multiple rooms
+- Cancel by Admin or user

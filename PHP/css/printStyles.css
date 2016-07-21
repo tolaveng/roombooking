@@ -1,0 +1,52 @@
+/* customised css to overwrite the bootstrap css */
+
+/*
+For printer
+*/
+
+body {
+  font-family: arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+/* Web Site Header */
+header {
+  display: none;
+}
+
+/* Navigation */
+nav#nav_main{
+  display: none;
+}
+
+/* Content */
+#content {
+  background-color: #FFFFFF;
+}
+#message_bar{
+  display: none;
+}
+#header_heading{
+	display: none;
+}
+.breadcrumb{
+  display: none;
+}
+#filter_layout{
+  display: none;
+}
+.link-loginout{
+	display: none;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+.text-center{
+  margin: auto;
+  text-align: center;
+}
+/* Footer */
+footer {
+  display: none;
+}
